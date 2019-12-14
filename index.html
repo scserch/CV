@@ -1,0 +1,106 @@
+<!--Todo esto es una boilerplate es decir atajos para ahorrar escritura (esta se empieza con html)-->
+<!DOCTYPE html>
+<!--Seleccionamos que es HTML5 (Esta version estos parametros) -->
+<html lang="en" dir="ltr">
+<!-- Idioma y dir es para decir el UTF-->
+
+<head>
+  <!--Pestanas de la pagina osea lo que dice en ella -->
+
+  <meta charset="utf-8"> <!-- El lenguaje en que la computadora lo maneja https://unicode-table.com/en/ -->
+  <title>🐉Blog de Sergio</title>
+  <!--El titulo de la pestana -->
+</head>
+<!--Fin de la pestana -->
+
+<body>
+  <!--Inicio del sitio web osea el texto dentro de el -->
+  <table>
+    <tr>
+      <td> <img src="imagenes/Pica.jpg" alt="Pikachu"></td>
+      <!--Seleccionamos la imagen dentro de nuestro pc y el "alt" sirve en caso la imagen no cargue -->
+      <td>
+        <h1>Sergio Ortiz</h1>
+
+        <p><em><strong> Estudiante 🎨 y chef 🍔 en progreso</strong></em></p>
+        <!--"em" y "strong" el primero es para poner cursiva el segundo resaltar necesita cerrase y se puede poner en cualquier lugar del texto  -->
+        <p>Me gusta el basketball 🏀 y el helado muy frio 🍦, aprendiendo diseno web</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <h2>Escuelas asistidas</h2>
+  <ul>
+    <!--Lista en desorden empiezo-->
+    <li> <a href="https://www.kipling.edu.mx/">Instituto Bilingue Rudyard Kipling</a></li>
+    <!-- con "a href" hacemos redfrencia a un hipervinculo se tiene que cerrar -->
+    <li> <a href="https://centroacademicoxipal.edu.mx/">Xipalito</a> </li>
+    <!--Tenemos poner "li" para poner cada nombre,etc -->
+    <li> <a href="http://www.cch-naucalpan.unam.mx/V2018/">CCH Naucalapan</a> </li>
+    <!--   En medio de "a" se pone el texto de refeerencia para el hipervinculo -->
+  </ul> <!-- Fin de  lista-->
+  <hr>
+  <h3>Estudios Previos</h3>
+  <table cellspacing='10'>
+    <!-- "table" Indicamos es estilo tabla solo se crea el formato -->
+    <thead>
+      <!-- "thead" Indicamos es los encabezados de la lista -->
+      <tr>
+        <th>Ano</th>
+        <th>Escuela</th> <!-- Notese la diferencia entre "th" y "td"  la primera encabeza la segunda es para el cuerpo -->
+        <th>Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- "tbody" Indicamos que es el contenido de la tabla-->
+      <tr>
+        <td>2004-2007</td>
+        <td> Estudie en Kri-Kri</td>
+        <td>Finalizado</td>
+      </tr>
+      <tr>
+        <!-- "tr" Creamos una fila como en excel -->
+        <td>2008-2014</td>
+        <td>Estudie en el Kipling</td>
+        <td>Finalizado</td>
+      </tr>
+      <tr>
+        <td>2014-2016</td>
+        <!-- "td" Creamos una celda la cual estara en la fial se pueden crear varias -->
+        <td>Estudie en el Xipal</td>
+        <td>Finalizado</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Estudie en el CCH Naucalpan</td>
+        <td>Actualidad</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <!--Fin de la tabla, NO ESTILIZAR -->
+  <h3>Tabla de habilidades</h3>
+  <!--Evita usar cosas como "Cellspacing"eitan el correcto fuincionamiento de el HTML -->
+  <table cellspacing='10'>
+    <tbody>
+      <tr>
+        <td>Basketball </td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Pintura</td>
+        <td>⭐⭐⭐</td>
+        <!--Recuerda poner los datos por separado osea izquierda- 2010 derecha -Informacion para hacer tabala -->
+      </tr>
+      <tr>
+        <td>Arduino </td>
+        <td>⭐⭐⭐</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <a href="hobbies.html">Hobbies</a>
+  <p>Contactame por aqui <a href="contacto.html"><em><strong>Lista</strong></em></a></p>
+</body>
+
+</html>
